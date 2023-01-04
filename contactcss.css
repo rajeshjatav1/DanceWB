@@ -1,0 +1,34 @@
+#navbar {
+    padding: 8px 0px;
+    display: block;
+}
+#navbar div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#RJD{
+    text-align: center;
+    font-size: 22px;
+}
+#navbar ul{
+    padding-top: 0px;
+    margin: 0px;
+}
+#navbar li{
+ margin-top: 20px;
+}
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 0px 5px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}

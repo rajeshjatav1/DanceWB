@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bree+Serif&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    margin-right: 25px;
+}
+#logo img{
+    height:45px;
+    border-radius: 50px;
+    /* filter: invert(1); */
+}
+#logo div{
+    margin-left: 10px;
+}
+#navbar{
+    background-color:black;
+    padding:14px 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    display: flex;
+    align-items: center;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 3px 15px;
+}
+#navbar li a:hover{
+    color: rgb(33, 46, 4);
+    background-color: white;
+    border-radius: 5px;
+    /* font-size: 1.09rem; */
+    transition-property: all;
+    transition-duration: 1s;
+}
+#introSection{
+    background: url("bg1.jpg") center/cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-family: 'Bree Serif', serif;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    background-color:red;
+}
+#introSection div.content{
+    font-size: 25px;
+    padding-top: 10px;
+}
+#sponsorsSection{
+    height:300px;
+    background-color:#d6e7e9;
+}
+#missionSection{
+    height:305px;
+    background-color:#ffffff;
+    align-items: center;
+}
+#missionSection h3{
+    text-align: center;
+    padding-top:12px;
+    font-family: 'Bree Serif', serif;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 29.7%;
+    margin: 27px 22px;
+    height: 209px;
+
+}
+.card:hover{
+    background-color:#89e97c; ;
+    transition-property:all;
+    transition-duration: 1s;
+}
+.card h3{
+    text-align: center;
+    font-family: sans-serif;
+    padding:15px 0px;
+}
+.card-box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.card-img{
+    height: 130px;
+    padding: 0px 5px;
+    margin:5px 5px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0px 30px;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+
+}
+#sponsorsSection h3{
+    text-align: center;
+    padding-top:12px;
+    font-family: 'Bree Serif', serif;
+}
+#sponsers{
+    height: 252px;
+    max-width: 981px;
+    margin: 0px auto;
+}
+
+.simage{
+    height:80%;
+    margin:20px;
+    border:2px solid white;
+    border-radius: 30px;
+
+}
+#footer{
+    display:flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color:white;
+}

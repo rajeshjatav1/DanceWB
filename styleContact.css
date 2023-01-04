@@ -1,0 +1,55 @@
+body{
+    background: url("bg1.jpg") center/cover no-repeat;
+}
+h2{
+    text-align: center;
+    margin:15px 0px;
+    font-family: "Bree serif";
+    color: white;
+}
+.container{
+    height: 100%;
+    margin: 32px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.myInput{
+    display: block;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    width:80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Bree serif';
+    outline: none;
+}
+.myInput:hover{
+    /* width:82%; */
+    transition-property: all;
+    transition-duration: 1s;
+    background-color: rgb(215, 255, 242);
+}
+#btn{
+    padding :7px 10px;
+    margin: 10px;
+    margin-bottom: 19px;
+    border:2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+#btn:hover{
+    background-color: #ffff;
+    color: black;
+    transition-property: all;
+    transition-duration: 1s;
+    font-weight: bold;
+}
